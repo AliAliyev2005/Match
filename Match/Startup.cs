@@ -32,7 +32,6 @@ namespace Match
             services.AddIdentity<ApplicationUser, ApplicationRole>()
                     .AddEntityFrameworkStores<ApplicationDbContext>()
                     .AddDefaultTokenProviders();
-
             services.AddControllersWithViews();
         }
 
