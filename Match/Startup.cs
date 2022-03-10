@@ -24,6 +24,7 @@ namespace Match
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddIdentity<ApplicationDbContext, >();
+            services.AddDbContext<ApplicationDbContext>();
             services.AddControllersWithViews();
         }
 
